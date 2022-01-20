@@ -2,7 +2,7 @@
    sphinx-quickstart on Thu Jan 20 23:52:19 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
--------------------------------
+
 **Sour Sdey!**  
 -------------------------------
 
@@ -18,18 +18,11 @@ I graduted a master of Civil Engineering degree from The University of Tokyo in 
    :hidden:
    :caption: About me
 
-   .. Content/About-me/about-me
-   .. Content/About-me/resume
-   .. Content/About-me/contact
-
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Documentations
 
-   .. Content/Documentation/google-earth-engine
-   .. Content/Documentation/geo-python
-   .. Content/Documentation/machine-learning
 
 Indices and tables
 ==================
