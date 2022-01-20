@@ -1,58 +1,9 @@
-# ChattyCathy
-Artificial intelligence (AI) chat bot for Discord written in Python
+# Men Vuthy's Portfolio and Documentation
 
-# Project Home Page
+**Sour Sdey!**  
+-------------------------------
+![Alt text](img/cover-image.jpg)
 
-Visit the project page on DevDungeon.com for more information.
+My name is **Men Vuthy**. I am a Civil Engineer, specialized in river and geospatial engineering,  with industry experiences in piped-water supply design, hydrological modeling, GIS, mapping, geo-data/satellite image analysis, programming, classification and big data. I am currently an Engineer in River Department at Nippon Koei Co., Ltd based in head quarter in Tokyo, Japan, where I work on different kinds of data sorting tasks, satellite-image analysis and Deep Learning models to do semantic segmentation on satellite images. Besides that, I sometimes offer an online course on [Geospatial Data Analysis with Python](https://geospatialyst.github.io/homepage/course/) to Cambodian graduated students and professionals.
 
-https://www.devdungeon.com/content/chatty-cathy
-
-# AIML Tutorial
-
-For more details on using AIML with Python, see the tutorial on DevDungeon.
-
-https://www.devdungeon.com/content/ai-chat-bot-python-aiml
-
-# Live Demo
-
-Chat with Chatty Cathy in the DevDungeon Discord server channel #chat-with-cathy.
-
-https://discord.gg/unSddKm
-
-# Set up your own bot
-
-Run your own bot by following the instructions below.
-
-## Installation
-
-    pip install cathy
-    
-Or download this package and install with setup.py 
-
-    python setup.py install
-    
-## Running
-
-    cathy --help
-    
-## Usage
-
-    Cathy.
-
-    Discord chat bot using AIML artificial intelligence
-
-    Usage:
-      cathy <channel> <token>
-    
-    Options:
-      <channel>     Name of channel to chat in (no hashtag)
-      <token>       Bot's Discord API token
-      -h --help     Show this screen.
-      
-## Example Usage
-
-    cathy chat-with-cathy XXXXXXSECRETTOKENXXXXXXX
-
-## Contact
-
-nanodano@devdungeon.com
+I graduted a master of Civil Engineering degree from The University of Tokyo in Japan in 2020. I recieved solid training in flood simulation and damage assessment, programming languages, machine learning and deep learning. I am proficient in ArcGIS/QGIS, geospatial data analysis, Python and Geo-Python, data retrieval and processing in Google Earth Engine, data classification and extraction, and data visualization. I am particularly interested in working with satelitte image data and dealing with large dataset. On the other hand, I like to spend time learning something new and explore more knowledge from various sources, and then write it down to my personal projects and documentations. More details about some of my projects and documentations can be found in DOCUMENTATIONS pages.
