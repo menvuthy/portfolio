@@ -31,8 +31,3 @@ I graduted a master of Civil Engineering degree from The University of Tokyo in 
    Content/Documentation/geo-python
    Content/Documentation/machine-learning
    Content/Documentation/python
-
-Search
----------------
-
-* :ref:`search`
