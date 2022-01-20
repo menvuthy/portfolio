@@ -5,3 +5,4 @@ Geo-Python
    :maxdepth: 2
    :caption: Geo-python projects
 
+   geo-python/Read-and-plot-raster.ipynb

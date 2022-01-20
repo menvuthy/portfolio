@@ -65,3 +65,9 @@ Air Temperature
     x = np.array([1,2,3])
     # print
     print(x)
+
+
+.. code-block:: python
+
+    import xarray as xr
+    
