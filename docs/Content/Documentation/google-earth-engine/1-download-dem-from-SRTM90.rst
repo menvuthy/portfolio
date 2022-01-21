@@ -23,6 +23,8 @@ The `Shuttle Radar Topography Mission (SRTM) <https://developers.google.com/eart
 Code
 ---------------
 
+#. visualize dataset
+
 The SRTM DEM dataset can be visualized using the code snippet below:
 
 .. code-block:: JavaScript
@@ -43,6 +45,9 @@ The SRTM DEM dataset can be visualized using the code snippet below:
 .. figure:: img/STRM90_dataset.png
     :width: 1200px
     :align: center
+
+#. Download dem to google toDrive
+
 
 // Import feature of region of interest (Cambodia)
 // Load country features from Large Scale International Boundary (LSIB) dataset.
