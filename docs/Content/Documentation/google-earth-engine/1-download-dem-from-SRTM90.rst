@@ -1,7 +1,7 @@
 =====================================
 Download DEM from SRTM90 dataset
 =====================================
-*Written by Men Vuthy, 2020*
+*Written by Men Vuthy, 2022*
 
 ----------
 
@@ -11,6 +11,14 @@ Objective
 * Vizualize digital elevation model (DEM) of SRTM90 version 4 from Google Earth Engine.
 * Download DEM within region of interest (Cambodia).
 
+Dataset
+---------------
+
+The `Shuttle Radar Topography Mission (SRTM) <https://developers.google.com/earth-engine/datasets/catalog/CGIAR_SRTM90_V4#description>`__ digital elevation dataset was originally produced to provide consistent, high-quality elevation data at near global scope. This version of the SRTM digital elevation data has been processed to fill data voids, and to facilitate its ease of use.
+
+.. figure:: img/CGIAR-SRTM98_V4.png
+    :width: 1200px
+    :align: left
 
 Code
 ---------------
