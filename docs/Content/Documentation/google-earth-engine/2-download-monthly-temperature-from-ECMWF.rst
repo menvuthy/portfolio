@@ -54,4 +54,34 @@ ECMWF Climate Reanalysis dataset can be visualized using the code snippet below:
     :width: 1200px
     :align: center
 
-**2. Download DEM to Google Drive**
+**2. Visualize temperature in Cambodia**
+
+The feature boundary of Cambodia is based on the international boundary dataset provided by The United States Office of the Geographer. The boundary data is available in GEE and known as `LSIB 2017: Large Scale International Boundary Polygons <https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description>`__. The country name code can be referred to `FIPS country codes <https://en.wikipedia.org/wiki/List_of_FIPS_country_codes>`__. With this feature, we can clip the temperature global image to the shape of our region of interest.
+
+.. code-block:: JavaScript
+
+    // Load country features from Large Scale International Boundary (LSIB) dataset.
+    var countries = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017');
+
+    // Filter boundary to Cambodia with the code name 'CB'
+    var roi = countries.filter(ee.Filter.eq('country_co', 'CB'));
+
+    // Filter images to Jan 2020 and clip it
+    var temp = temperature.filter(ee.Filter.calendarRange(2020, 2020, 'year'))
+                    .filter(ee.Filter.calendarRange(1, 1, 'month'))
+                    .sum()
+                    .clip(roi);
+
+    // Set palette for data range visualization
+    var temperatureVis_cambo = {
+    min: 290.0,
+    max: 330.0,
+    palette: [
+        "#000080","#0000D9","#4000FF","#8000FF","#0080FF","#00FFFF",
+        "#00FF80","#80FF00","#DAFF00","#FFFF00","#FFF500","#FFDA00",
+        "#FFB000","#FFA400","#FF4F00","#FF2500","#FF0A00","#FF00FF",
+    ]
+    };
+
+    // Add layer to map
+    Map.addLayer(temp, temperatureVis_cambo, 'Temperature');
