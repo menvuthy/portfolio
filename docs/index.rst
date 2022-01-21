@@ -25,7 +25,7 @@ I graduted a master of Civil Engineering degree from The University of Tokyo in 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Documentations
+   :caption: Documentation
 
    Content/Documentation/google-earth-engine
    Content/Documentation/geo-python
