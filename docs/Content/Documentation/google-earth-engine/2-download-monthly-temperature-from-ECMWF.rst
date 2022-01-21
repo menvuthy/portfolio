@@ -90,12 +90,12 @@ The feature boundary of Cambodia is based on the international boundary dataset 
     :width: 1200px
     :align: center
 
-**3. Calculate monthly mean temperature of Cambodia**
+**3. Extract all temperature images within given year**
 
 To calculate mean temperature of each month, we must set a target year and then extract all the images from image collection that correspond to the given year. 
 
 .. code-block:: JavaScript
-    
+
     // set year
     var year = 2020;
  
@@ -125,3 +125,28 @@ To calculate mean temperature of each month, we must set a target year and then 
 .. figure:: img/list_img_temp.png
     :width: 1200px
     :align: center
+
+**4. Calculate monthly mean temperature of Cambodia**
+
+After extracting images of given year, we can see that there are in total of 12 images which respond to 12 months of the year. In each image, there are a wide range of temperature in Kelvin. Therefore, we need to calculate the mean temperature of each image to get 12 mean temperature value. To do so, we can use a function call ``ee.Reducer.mean()`` as follows:
+
+.. code-block:: JavaScript
+
+    var chartMonthly = ui.Chart.image.seriesByRegion({
+        imageCollection: monthlyTemp,
+        regions: roi,
+        reducer: ee.Reducer.mean(),
+        scale: 2500,
+        xProperty: 'system:time_start',
+        seriesProperty: 'temperature',
+    })
+    .setChartType('ColumnChart')
+    .setOptions({ title: 'Monthly temperature - Cambodia - 2020',
+                  hAxis: {title: 'Month', titleTextStyle: {italic: true, bold: false}},
+                  vAxis: {title: 'Temperature (K)', titleTextStyle: {italic: true, bold: false}},
+                  colors: ['0f8755']
+                });
+ 
+    print(chartMonthly);
+
+
