@@ -1,5 +1,5 @@
 =======================================================================
-Download monthly average temperature from ECMWF Climate dataset
+Download monthly mean temperature from ECMWF Climate dataset
 =======================================================================
 *Written by Men Vuthy, 2022*
 
@@ -74,13 +74,13 @@ The feature boundary of Cambodia is based on the international boundary dataset 
 
     // Set palette for data range visualization
     var temperatureVis_cambo = {
-    min: 290.0,
-    max: 330.0,
-    palette: [
-        "#000080","#0000D9","#4000FF","#8000FF","#0080FF","#00FFFF",
-        "#00FF80","#80FF00","#DAFF00","#FFFF00","#FFF500","#FFDA00",
-        "#FFB000","#FFA400","#FF4F00","#FF2500","#FF0A00","#FF00FF",
-    ]
+        min: 290.0,
+        max: 330.0,
+        palette: [
+            "#000080","#0000D9","#4000FF","#8000FF","#0080FF","#00FFFF",
+            "#00FF80","#80FF00","#DAFF00","#FFFF00","#FFF500","#FFDA00",
+            "#FFB000","#FFA400","#FF4F00","#FF2500","#FF0A00","#FF00FF",
+        ]
     };
 
     // Add layer to map
