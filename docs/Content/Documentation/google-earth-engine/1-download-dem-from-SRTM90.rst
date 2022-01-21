@@ -89,6 +89,7 @@ The purpose is to download DEM of Cambodia and export it to google drive in ``Ge
     Export.image.toDrive({
     image: cambodia_dem,
     description: 'Cambodia-DEM',
+    fileFormat: 'GeoTIFF',
     scale: 90,
     region: roi
     });
