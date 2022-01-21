@@ -46,32 +46,47 @@ The SRTM DEM dataset can be visualized using the code snippet below:
     :width: 1200px
     :align: center
 
-**2. Download dem to Google Drive**
+**2. Download DEM to Google Drive**
 
+The purpose is to download DEM of Cambodia and export it to google drive in ``GeoTiff (.tiff)``. Hence, the boundary feature of Cambodia is based on the international boundary dataset provided by The United States Office of the Geographer. The boundary data is available in GEE and known as `LSIB 2017: Large Scale International Boundary Polygons <https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description>`__. The country name code can be referred to `FIPS country codes <https://en.wikipedia.org/wiki/List_of_FIPS_country_codes>`__.
 
-// Import feature of region of interest (Cambodia)
-// Load country features from Large Scale International Boundary (LSIB) dataset.
-var countries = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017');
-var roi = countries.filter(ee.Filter.eq('country_co', 'CB'));
+.. code-block:: JavaScript
 
-// Add ROI layer to interactive map
-Map.addLayer(roi, {color:'green'}, 'basin');
+    // Load country features from Large Scale International Boundary (LSIB) dataset.
+    var countries = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017');
+    var roi = countries.filter(ee.Filter.eq('country_co', 'CB'));
 
+    // Add ROI layer to interactive map
+    Map.addLayer(roi, {color:'black'}, 'Cambodia');
 
+.. figure:: img/STRM90_dataset.png
+    :width: 1200px
+    :align: center
 
-// Clip DEM image to the target ROI
-var elevation = dataset.select('elevation').clip(roi);
+.. code-block:: JavaScript
 
+    // Import DEM dataset
+    var dataset = ee.Image('CGIAR/SRTM90_V4');
+    var elevation = dataset.select('elevation')
 
-Map.addLayer(elevation,  {min: 0, max: 50}, 'elevation');
+    // Clip DEM image to the target ROI
+    var cambodia_dem = elevation.clip(roi);
+    
+    // Add layer of Cambodia DEM to interactive map
+    Map.addLayer(cambodia_dem,  {min: 0, max: 50}, 'elevation');
 
+.. figure:: img/STRM90_dataset.png
+    :width: 1200px
+    :align: center
 
-
-// Export.image.toDrive({
-//   image: elevation,
-//   description: 'pursat_RB',
-//   scale: 90,
-//   region: rb_pursat
-// });
+.. code-block:: JavaScript
+    
+    // Export image to google drive
+    Export.image.toDrive({
+    image: elevation,
+    description: 'pursat_RB',
+    scale: 90,
+    region: rb_pursat
+    });
 
 
