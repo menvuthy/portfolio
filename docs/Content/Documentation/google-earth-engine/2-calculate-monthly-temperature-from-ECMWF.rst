@@ -130,7 +130,7 @@ To calculate mean temperature of each month, we must set a target year and then 
 
 **4. Calculate monthly mean temperature of Cambodia**
 
-After extracting images of given year, we can see that there are in total of 12 images which respond to 12 months of the year. In each image, there are a wide range of temperature in Kelvin. Therefore, we need to calculate the mean temperature of each image to get 12 mean temperature value. To do so, we can use a function call ``ee.Reducer.mean()`` as follows:
+After extracting images of given year, we can see that there are in total of 36 images which respond to 36 months or 3 years. In each image, there are a wide range of temperature in Kelvin. Therefore, we need to calculate the mean temperature of each image to get 12 mean temperature value. To do so, we can use a function call ``ee.Reducer.mean()`` as follows:
 
 .. code-block:: JavaScript
 
