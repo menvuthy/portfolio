@@ -85,3 +85,7 @@ The feature boundary of Cambodia is based on the international boundary dataset 
 
     // Add layer to map
     Map.addLayer(temp, temperatureVis_cambo, 'Temperature');
+
+.. figure:: img/cambodia-temp.png
+    :width: 1200px
+    :align: center
