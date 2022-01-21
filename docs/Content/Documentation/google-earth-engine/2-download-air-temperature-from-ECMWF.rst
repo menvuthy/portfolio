@@ -1,5 +1,5 @@
 ===========================================================
-Download air temperature from ECMWF Climate dataset
+Download monthly avegra temperature from ECMWF Climate dataset
 ===========================================================
 *Written by Men Vuthy, 2022*
 
