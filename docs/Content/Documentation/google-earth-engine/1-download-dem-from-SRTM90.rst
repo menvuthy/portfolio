@@ -54,6 +54,8 @@ The purpose is to download DEM of Cambodia and export it to google drive in ``Ge
 
     // Load country features from Large Scale International Boundary (LSIB) dataset.
     var countries = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017');
+
+    // Filter boundary to Cambodia with the code name 'CB'
     var roi = countries.filter(ee.Filter.eq('country_co', 'CB'));
 
     // Add ROI layer to interactive map
@@ -67,6 +69,8 @@ The purpose is to download DEM of Cambodia and export it to google drive in ``Ge
 
     // Import DEM dataset
     var dataset = ee.Image('CGIAR/SRTM90_V4');
+
+    // Select band
     var elevation = dataset.select('elevation')
 
     // Clip DEM image to the target ROI
