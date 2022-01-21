@@ -61,7 +61,7 @@ The purpose is to download DEM of Cambodia and export it to google drive in ``Ge
     // Add ROI layer to interactive map
     Map.addLayer(roi, {color:'black'}, 'Cambodia');
 
-.. figure:: img/STRM90_dataset.png
+.. figure:: img/cambodia_bound.png
     :width: 1200px
     :align: center
 
@@ -79,7 +79,7 @@ The purpose is to download DEM of Cambodia and export it to google drive in ``Ge
     // Add layer of Cambodia DEM to interactive map
     Map.addLayer(cambodia_dem,  {min: 0, max: 50}, 'elevation');
 
-.. figure:: img/STRM90_dataset.png
+.. figure:: img/cambodia_dem.png
     :width: 1200px
     :align: center
 
