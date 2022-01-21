@@ -83,6 +83,8 @@ The purpose is to download DEM of Cambodia and export it to google drive in ``Ge
     :width: 1200px
     :align: center
 
+By running below snippet, the Tasks tab will appear a ``Run`` button. After clicking that button, the elevation image of Cambodia will be stored in your google drive. 
+
 .. code-block:: JavaScript
     
     // Export image to google drive
