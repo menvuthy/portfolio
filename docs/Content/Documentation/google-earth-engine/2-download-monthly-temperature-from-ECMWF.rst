@@ -95,6 +95,7 @@ The feature boundary of Cambodia is based on the international boundary dataset 
 To calculate mean temperature of each month, we must set a target year and then extract all the images from image collection that correspond to the given year. 
 
 .. code-block:: JavaScript
+    
     // set year
     var year = 2020;
  
