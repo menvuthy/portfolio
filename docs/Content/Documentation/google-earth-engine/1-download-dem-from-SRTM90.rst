@@ -23,7 +23,7 @@ The `Shuttle Radar Topography Mission (SRTM) <https://developers.google.com/eart
 Code
 ---------------
 
-#. visualize dataset
+**1. Visualize dataset**
 
 The SRTM DEM dataset can be visualized using the code snippet below:
 
@@ -46,7 +46,7 @@ The SRTM DEM dataset can be visualized using the code snippet below:
     :width: 1200px
     :align: center
 
-#. Download dem to google toDrive
+**2. Download dem to Google Drive**
 
 
 // Import feature of region of interest (Cambodia)
