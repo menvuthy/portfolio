@@ -1,6 +1,6 @@
 # Men Vuthy's Portfolio and Documentation
 
-**Sour Sdey!**  
+**Vuthy's portfolio and documentations** 
 -------------------------------
 ![Alt text](docs/img/cover-image.jpg)
 
