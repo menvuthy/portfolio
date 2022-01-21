@@ -89,3 +89,5 @@ The feature boundary of Cambodia is based on the international boundary dataset 
 .. figure:: img/cambodia-temp.png
     :width: 1200px
     :align: center
+
+**3. Calculate monthly mean temperature**
