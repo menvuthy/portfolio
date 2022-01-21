@@ -104,4 +104,4 @@ Finally, we can see how to download digital elevation model of SRTM90 version 4 
 
 * SRTM90_V4: https://developers.google.com/earth-engine/datasets/catalog/CGIAR_SRTM90_V4
 * LSIB 2017: https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description
-* Export.image: https://developers.google.com/earth-engine/apidocs/export-image-todrive
+* Export.image.toDrive: https://developers.google.com/earth-engine/apidocs/export-image-todrive

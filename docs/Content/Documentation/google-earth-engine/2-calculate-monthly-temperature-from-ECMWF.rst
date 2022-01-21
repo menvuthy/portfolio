@@ -1,5 +1,5 @@
 =======================================================================
-Download monthly mean temperature from ECMWF Climate dataset
+Calculate monthly mean temperature from ECMWF Climate dataset
 =======================================================================
 *Written by Men Vuthy, 2022*
 
@@ -8,8 +8,8 @@ Download monthly mean temperature from ECMWF Climate dataset
 Objective
 ---------------
 
-* Vizualize digital elevation model (DEM) of SRTM90 version 4 from Google Earth Engine.
-* Download DEM within region of interest (Cambodia).
+* Vizualize temperature image of a given period in Cambodia.
+* Calculate monthly mean temperature of Cambodia.
 
 Dataset
 ---------------
@@ -149,4 +149,18 @@ After extracting images of given year, we can see that there are in total of 12 
  
     print(chartMonthly);
 
+.. figure:: img/monthly-temp-chart.png
+    :width: 1200px
+    :align: center
 
+
+Finally, we can see how to calculate and download monthly mean temperature from  ECMWF Climate dataset in Google Earth Engine.
+
+----------
+
+**Reference**
+
+* ECMWF ERA5 climate reanalysis: https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_MONTHLY
+* LSIB 2017: https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description
+* ui.Chart.image.seriesByRegion: https://developers.google.com/earth-engine/apidocs/ui-chart-image-seriesbyregion
+* ee.Reducer.mean : https://developers.google.com/earth-engine/apidocs/ee-reducer-mean
