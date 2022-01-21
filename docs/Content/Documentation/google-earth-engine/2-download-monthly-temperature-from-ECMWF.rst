@@ -90,4 +90,37 @@ The feature boundary of Cambodia is based on the international boundary dataset 
     :width: 1200px
     :align: center
 
-**3. Calculate monthly mean temperature**
+**3. Calculate monthly mean temperature of Cambodia**
+
+To calculate mean temperature of each month, we must set a target year and then extract all the images from image collection that correspond to the given year. 
+
+.. code-block:: JavaScript
+    // set year
+    var year = 2020;
+ 
+    // make a list with years
+    var years = ee.List.sequence(year, year);
+
+    // make a list with months
+    var months = ee.List.sequence(1, 12);
+
+    // Extract all images within given year
+    var monthlyTemp =  ee.ImageCollection.fromImages(
+    years.map(function (y) {
+        return months.map(function(m) {
+        var temp = temperature.filter(ee.Filter.calendarRange(y, y, 'year'))
+                        .filter(ee.Filter.calendarRange(m, m, 'month'))
+                        .sum()
+                        .clip(roi);
+        return temp.set('year', y)
+                .set('month', m)
+                .set('system:time_start', ee.Date.fromYMD(y, m, 1));
+        });
+    }).flatten()
+    );
+
+    print(monthlyTemp)
+
+.. figure:: img/list_img_temp.png
+    :width: 1200px
+    :align: center
