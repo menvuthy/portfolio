@@ -96,11 +96,13 @@ To calculate mean temperature of each month, we must set a target year and then 
 
 .. code-block:: JavaScript
 
-    // set year
-    var year = 2020;
+
+    // set start year and end year
+    var startyear = 2019;
+    var endyear = 2021
  
     // make a list with years
-    var years = ee.List.sequence(year, year);
+    var years = ee.List.sequence(startyear, endyear);
 
     // make a list with months
     var months = ee.List.sequence(1, 12);
