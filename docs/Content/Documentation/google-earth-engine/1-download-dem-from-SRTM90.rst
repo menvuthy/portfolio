@@ -48,7 +48,7 @@ The SRTM DEM dataset can be visualized using the code snippet below:
 
 **2. Download DEM to Google Drive**
 
-The purpose is to download DEM of Cambodia and export it to google drive in ``GeoTiff (.tiff)``. Hence, the boundary feature of Cambodia is based on the international boundary dataset provided by The United States Office of the Geographer. The boundary data is available in GEE and known as `LSIB 2017: Large Scale International Boundary Polygons <https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description>`__. The country name code can be referred to `FIPS country codes <https://en.wikipedia.org/wiki/List_of_FIPS_country_codes>`__.
+The purpose is to download DEM of Cambodia and export it to google drive in ``GeoTiff (.tiff)``. Hence, the feature boundary of Cambodia is based on the international boundary dataset provided by The United States Office of the Geographer. The boundary data is available in GEE and known as `LSIB 2017: Large Scale International Boundary Polygons <https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description>`__. The country name code can be referred to `FIPS country codes <https://en.wikipedia.org/wiki/List_of_FIPS_country_codes>`__.
 
 .. code-block:: JavaScript
 
@@ -87,10 +87,17 @@ The purpose is to download DEM of Cambodia and export it to google drive in ``Ge
     
     // Export image to google drive
     Export.image.toDrive({
-    image: elevation,
-    description: 'pursat_RB',
+    image: cambodia_dem,
+    description: 'Cambodia-DEM',
     scale: 90,
-    region: rb_pursat
+    region: roi
     });
 
+Finally, we can see how to download digital elevation model of SRTM90 version 4 from Google Earth Engine.
 
+----------
+
+**Reference**
+
+* SRTM90_V4: https://developers.google.com/earth-engine/datasets/catalog/CGIAR_SRTM90_V4
+* LSIB 2017: https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description
