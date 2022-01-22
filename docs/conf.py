@@ -36,7 +36,6 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
-    'sphinx.ext.opengraph',
     'sphinx_thebe',
     'nbsphinx',
 ]
