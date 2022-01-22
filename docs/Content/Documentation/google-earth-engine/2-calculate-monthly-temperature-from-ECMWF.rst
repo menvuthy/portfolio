@@ -23,6 +23,7 @@ ERA5-Land data is available from 1981 to three months from real-time. More infor
 .. figure:: img/ERA5-Climate.png
     :width: 600px
     :align: center
+    :alt: ERA5 Climate Reanalysis
 
 Code
 ---------------
