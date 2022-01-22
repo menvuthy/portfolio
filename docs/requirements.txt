@@ -29,5 +29,3 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 myst-parser==0.12.10
 myst-nb==0.10.1
-sphinxext==0.5.1
-sphinxext-opengraph
