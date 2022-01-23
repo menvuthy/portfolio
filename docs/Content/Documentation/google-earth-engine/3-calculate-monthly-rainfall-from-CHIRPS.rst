@@ -26,32 +26,36 @@ Code
 
 **1. Visualize dataset**
 
-ECMWF Climate Reanalysis dataset can be visualized using the code snippet below:
+CHIRPS Daily dataset can be visualized using the code snippet below:
 
 .. code-block:: JavaScript
     
-    // Import dataset
-    var dataset = ee.ImageCollection('ECMWF/ERA5_LAND/MONTHLY');
+    // Import CHIRPS dataset and filter to 01-Sep-2020
+    var dataset = ee.ImageCollection('UCSB-CHG/CHIRPS/DAILY')
+                    .filter(ee.Filter.date('2020-09-01', '2020-09-02'));
+                  
+    // Select bands
+    var precipitation = dataset.select('precipitation');
 
-    // Select temperature band
-    var temperature = dataset.select('temperature_2m');
-
-    // Set palette for data range visualization
-    var temperatureVis = {
-        min: 250.0,
-        max: 320.0,
-        palette: [
-            "#000080","#0000D9","#4000FF","#8000FF","#0080FF","#00FFFF",
-            "#00FF80","#80FF00","#DAFF00","#FFFF00","#FFF500","#FFDA00",
-            "#FFB000","#FFA400","#FF4F00","#FF2500","#FF0A00","#FF00FF",
-        ]
+    // Create visualization palette
+    var precipitationVis = {
+        min: 1.0,
+        max: 17.0,
+        palette: ['001137', '0aab1e', 'e7eb05', 'ff4a2d', 'e90000'],
     };
 
-.. figure:: img/world-temp-image.png
+    // Set center for zooming
+    Map.setCenter(104.405, 13.158, 6);
+
+    // Add layer to map
+    Map.addLayer(precipitation, precipitationVis, 'Precipitation');
+
+
+.. figure:: img/CHIRPS-image.png
     :width: 1200px
     :align: center
 
-**2. Visualize temperature in Cambodia**
+**2. Visualize rainfall in Cambodia**
 
 The feature boundary of Cambodia is based on the international boundary dataset provided by The United States Office of the Geographer. The boundary data is available in GEE and known as `LSIB 2017: Large Scale International Boundary Polygons <https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description>`__. The country name code can be referred to `FIPS country codes <https://en.wikipedia.org/wiki/List_of_FIPS_country_codes>`__. With this feature, we can clip the temperature global image to the shape of our region of interest.
 
