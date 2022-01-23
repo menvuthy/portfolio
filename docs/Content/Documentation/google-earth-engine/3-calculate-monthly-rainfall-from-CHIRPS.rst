@@ -67,7 +67,7 @@ The feature boundary of Cambodia is based on the international boundary dataset 
     // Filter boundary to Cambodia with the code name 'CB'
     var roi = countries.filter(ee.Filter.eq('country_co', 'CB'));
 
-    // Filter images to Jan 2020 and clip it
+    // Filter images to 01 Sep 2020 and clip it
     var rainfall = dataset.filter(ee.Filter.calendarRange(2020, 2020, 'year'))
                         .filter(ee.Filter.calendarRange(9, 9, 'month'))
                         .sum()
