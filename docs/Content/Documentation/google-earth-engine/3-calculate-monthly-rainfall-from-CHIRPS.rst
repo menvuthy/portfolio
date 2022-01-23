@@ -161,7 +161,8 @@ Finally, we can see how to calculate and download monthly mean precipitation fro
 
 ----------
 
-**Reference**
+Reference
+---------------
 
 * CHIRPS Daily: https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY
 * LSIB 2017: https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description
