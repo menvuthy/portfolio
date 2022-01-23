@@ -1,5 +1,5 @@
 =======================================================================
-Calculate monthly mean rainfall from CHIRPS Daily dataset
+Calculate monthly mean precipitation from CHIRPS Daily dataset
 =======================================================================
 *Written by Men Vuthy, 2022*
 
@@ -8,8 +8,8 @@ Calculate monthly mean rainfall from CHIRPS Daily dataset
 Objective
 ---------------
 
-* Vizualize rainfall image of a given date in Cambodia.
-* Calculate monthly mean rainfall of Cambodia.
+* Vizualize precipitation image of a given date in Cambodia.
+* Calculate monthly mean precipitation of Cambodia.
 
 Dataset
 ---------------
@@ -55,7 +55,7 @@ CHIRPS Daily dataset can be visualized using the code snippet below:
     :width: 1200px
     :align: center
 
-**2. Visualize rainfall in Cambodia**
+**2. Visualize precipitation in Cambodia**
 
 The feature boundary of Cambodia is based on the international boundary dataset provided by The United States Office of the Geographer. The boundary data is available in GEE and known as `LSIB 2017: Large Scale International Boundary Polygons <https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description>`__. The country name code can be referred to `FIPS country codes <https://en.wikipedia.org/wiki/List_of_FIPS_country_codes>`__. With this feature, we can clip the global rainfall image to the shape of our region of interest.
 
@@ -85,7 +85,7 @@ The feature boundary of Cambodia is based on the international boundary dataset 
 
 **3. Extract all precipitation images within given year**
 
-To calculate mean rainfall of each month, we must set a target year and then extract all the images from image collection that correspond to the given year. 
+To calculate mean precipitation of each month, we must set a target year and then extract all the images from image collection that correspond to the given year. 
 
 .. code-block:: JavaScript
 
@@ -122,7 +122,7 @@ To calculate mean rainfall of each month, we must set a target year and then ext
 
 **4. Calculate monthly mean precipitation of Cambodia**
 
-After extracting images of given year, we can see that there are in total of 36 images which respond to 36 months or 3 years. In each image, there are a wide range of temperature in Kelvin. Therefore, we need to calculate the mean temperature of each image to get 36 mean temperature value. To do so, we can use a function call ``ee.Reducer.mean()`` as follows:
+After extracting images of given year, we can see that there are in total of 36 images which respond to 36 months or 3 years. In each image, there are a wide range of precipitation value in mm. Therefore, we need to calculate the mean precipitation of each image to get 36 mean precipitation value. To do so, we can use a function call ``ee.Reducer.mean()`` as follows:
 
 .. code-block:: JavaScript
 
