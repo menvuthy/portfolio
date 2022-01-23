@@ -83,16 +83,16 @@ The feature boundary of Cambodia is based on the international boundary dataset 
     :width: 1200px
     :align: center
 
-**3. Extract all temperature images within given year**
+**3. Extract all precipitation images within given year**
 
-To calculate mean temperature of each month, we must set a target year and then extract all the images from image collection that correspond to the given year. 
+To calculate mean rainfall of each month, we must set a target year and then extract all the images from image collection that correspond to the given year. 
 
 .. code-block:: JavaScript
 
 
     // set start year and end year
     var startyear = 2019;
-    var endyear = 2021
+    var endyear = 2021;
  
     // make a list with years
     var years = ee.List.sequence(startyear, endyear);
@@ -100,62 +100,70 @@ To calculate mean temperature of each month, we must set a target year and then 
     // make a list with months
     var months = ee.List.sequence(1, 12);
 
-    // Extract all images within given year
-    var monthlyTemp =  ee.ImageCollection.fromImages(
-    years.map(function (y) {
+    // Extract all rainfall images within given year
+    var monthlyPrecip =  ee.ImageCollection.fromImages(
+     years.map(function (y) {
         return months.map(function(m) {
-        var temp = temperature.filter(ee.Filter.calendarRange(y, y, 'year'))
+        var w = dataset.filter(ee.Filter.calendarRange(y, y, 'year'))
                         .filter(ee.Filter.calendarRange(m, m, 'month'))
-                        .sum()
-                        .clip(roi);
-        return temp.set('year', y)
+                        .sum();
+        return w.set('year', y)
                 .set('month', m)
                 .set('system:time_start', ee.Date.fromYMD(y, m, 1));
         });
     }).flatten()
     );
 
-    print(monthlyTemp)
+    print(monthlyPrecip)
 
-.. figure:: img/list_img_temp.png
+.. figure:: img/list_img_prec.png
     :width: 1200px
     :align: center
 
-**4. Calculate monthly mean temperature of Cambodia**
+**4. Calculate monthly mean precipitation of Cambodia**
 
 After extracting images of given year, we can see that there are in total of 36 images which respond to 36 months or 3 years. In each image, there are a wide range of temperature in Kelvin. Therefore, we need to calculate the mean temperature of each image to get 36 mean temperature value. To do so, we can use a function call ``ee.Reducer.mean()`` as follows:
 
 .. code-block:: JavaScript
 
+    // Import CHIRPS dataset and filter to 01-Sep-2020
+    var dataset = ee.ImageCollection('UCSB-CHG/CHIRPS/DAILY');
+
+    // Select bands
+    var precipitation = dataset.select('precipitation');
+
+    // Calculate mean precipitation and create a bar chart.
     var chartMonthly = ui.Chart.image.seriesByRegion({
-        imageCollection: monthlyTemp,
+        imageCollection: monthlyPrecip,
         regions: roi,
         reducer: ee.Reducer.mean(),
-        scale: 2500,
+        band: 'precipitation',
+        scale: 5566,
         xProperty: 'system:time_start',
-        seriesProperty: 'temperature',
+        seriesProperty: 'precipitation',
     })
     .setChartType('ColumnChart')
-    .setOptions({ title: 'Monthly temperature - Cambodia - 2020',
+    .setOptions({ title: 'Monthly temperature - Cambodia - 2019~2020',
                   hAxis: {title: 'Month', titleTextStyle: {italic: true, bold: false}},
-                  vAxis: {title: 'Temperature (K)', titleTextStyle: {italic: true, bold: false}},
+                  vAxis: {title: 'Precipitation (mm)', titleTextStyle: {italic: true, bold: false}},
                   colors: ['0f8755']
                 });
  
     print(chartMonthly);
 
-.. figure:: img/monthly-temp-chart.png
+
+.. figure:: img/monthly-precp-chart.png
     :width: 1200px
     :align: center
 
 
-Finally, we can see how to calculate and download monthly mean temperature from  ECMWF Climate dataset in Google Earth Engine.
+Finally, we can see how to calculate and download monthly mean precipitation from  CHIRPS Daily dataset in Google Earth Engine.
 
 ----------
 
 **Reference**
 
-* ECMWF ERA5 climate reanalysis: https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_MONTHLY
+* CHIRPS Daily: https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY
 * LSIB 2017: https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description
 * ui.Chart.image.seriesByRegion: https://developers.google.com/earth-engine/apidocs/ui-chart-image-seriesbyregion
 * ee.Reducer.mean : https://developers.google.com/earth-engine/apidocs/ee-reducer-mean
