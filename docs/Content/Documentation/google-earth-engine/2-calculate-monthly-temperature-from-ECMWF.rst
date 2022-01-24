@@ -161,8 +161,7 @@ Finally, we can see how to calculate and download monthly mean temperature from 
 
 ----------
 
-Reference
----------------
+**Reference**
 
 * ECMWF ERA5 climate reanalysis: https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_MONTHLY
 * LSIB 2017: https://developers.google.com/earth-engine/datasets/catalog/USDOS_LSIB_SIMPLE_2017#description
