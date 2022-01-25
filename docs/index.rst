@@ -27,7 +27,8 @@ I graduted a master of Civil Engineering degree from The University of Tokyo in 
    :hidden:
    :caption: Documentation
 
-   Content/Documentation/google-earth-engine
    Content/Documentation/geo-python
+   Content/Documentation/google-earth-engine
    Content/Documentation/machine-learning
-   Content/Documentation/python
+   Content/Documentation/deep-learning
+   
