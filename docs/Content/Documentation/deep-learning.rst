@@ -5,4 +5,4 @@ Deep Learning
    :maxdepth: 2
    :caption: Deep learning projects
 
-   deep-learning/project-1.rst
+   deep-learning/Convert-WorldView-3 satellite-images-from-Uint16-to-8byte.ipynb
