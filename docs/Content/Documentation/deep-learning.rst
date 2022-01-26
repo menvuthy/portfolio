@@ -8,3 +8,4 @@ Deep Learning
    deep-learning/Convert-WorldView-3 satellite-images-from-Uint16-to-8byte.ipynb
    deep-learning/Convert_building_polygons_to_building_masks_for_semantic_segmentation_model.ipynb
    deep-learning/UNET_Building_Segmentation_Model_for_WorldView_3_Satellite_Imagery.ipynb
+   deep-learning/Building_footprint_prediction_on_WV3_satellite_images.ipynb
