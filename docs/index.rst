@@ -25,6 +25,11 @@ I graduted a master of Civil Engineering degree from The University of Tokyo in 
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: Lesson
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: Documentation
 
    Content/Documentation/lidar
