@@ -5,4 +5,4 @@ Machine Learning
    :maxdepth: 2
    :caption: Machine learning projects
 
-   machine-learning/project-1.rst
+   machine-learning/1-land_use_classification_with_random_forests.ipynb
