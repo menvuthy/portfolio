@@ -7,10 +7,19 @@ Sentinel-1 SAR: Cambodia Flood in October 2020
 
 This is a quick way to detect and extract the inundation area for analysis based on the Sentinel-1 SAR GRD images by using Google Earth Engine and QGIS.
 
+.. image:: images/flood-cambo/Homepage.png
+    :width: 100%
+    :align: center
 
 Heavy rain lashed Cambodia for over two weeks in October 2020, flooding 18 provinces and Phnom Pench city. According to figures reported by National Committee for Disaster Management (NCDM) in Cambodia from 1st to 19th October, 25 people were reported dead in the floods, about 300,000 people or 78,000 families were affected, and about 37,000 people or 9,000 families were displaced to safer zones. In addition, flood has also destroyed 56 houses and affected over 73,000 houses, while 568 schools were inundated. In this flood event, at least 80,000 ha crops and 210,000 ha paddy fields were inundated, whereas theirs damages has not been so far reported. On the other hand, many national and provincial roads were severely impacted by the effects of this prolonged flood.
 
-{% include gallery caption="Figure 1: Report and data summary on flood impact in 2020 in Cambodia." %}
+.. image:: images/flood-cambo/report-1.png
+    :width: 32%
+.. image:: images/flood-cambo/report-2.png
+    :width: 32%
+.. image:: images/flood-cambo/report-3.png
+    :width: 32%
+Figure 1: Report and data summary on flood impact in 2020 in Cambodia.
 
 Even though various data were collected and described in Figure 1 by NCDM, the area of flooding which shows the extend and location of flooding has remained unofficially published by any related institutions. Therefore, I would like to reveal a quick method to detect and extract the inundated area based on Sentinel-1 SAR GRD images by using Google Earth Engine in QGIS application. 
 
@@ -28,50 +37,20 @@ This map will serves practitioners, policy makers or engineers as an important i
 -----
 ## Overview of Inundation Area in Cambodia
 
-.. figure:: image/flood-cambo/report-1.jpg
-    :width: 500px
+.. image:: images/flood-cambo/Inundation-Area_VV.png
+    :width: 100%
     :align: center
+Figure 2: (a) Sentinel-1 SAR Image of Cambodia from 15-20 October 2020.
 
-{% include gallery id="gallery1" %}
-{% include gallery id="gallery2" caption="Figure 2: (a) Sentinel-1 SAR Image of Cambodia from 15-20 October 2020. (b) Detected flooding area. (c) Extracted flooding area." %}
-
-## Overview of Inundation Area by City and Provinces
-
-### Phnom Penh City
-{% include gallery id="Phnompenh" caption="Figure 3: Image of Sentinel-1 SAR and detected flooding area in Phnom Penh." %}
-
-### Siem Reap
-{% include gallery id="Siemreap" caption="Figure 4: Image of Sentinel-1 SAR and detected flooding area in Siem Reap." %}
-
-### Banteay Meanchey
-{% include gallery id="Banteaymeanchey" caption="Figure 5: Image of Sentinel-1 SAR and detected flooding area in Banteay Meanchey." %}
-
-### Battambang
-{% include gallery id="Battambang" caption="Figure 6: Image of Sentinel-1 SAR and detected flooding area in Battambang." %}
-
-### Pursat
-{% include gallery id="Pursat" caption="Figure 7: Image of Sentinel-1 SAR and detected flooding area in Pursat." %}
-
-### Kampong Chhnang
-{% include gallery id="Kampongchhnang" caption="Figure 8: Image of Sentinel-1 SAR and detected flooding area in Kampong Chhnang." %}
-
-### Kampong Thom
-{% include gallery id="Kampongthom" caption="Figure 9: Image of Sentinel-1 SAR and detected flooding area in Kampong Thom." %}
-
-### Stung Treng
-{% include gallery id="Stungtreng" caption="Figure 10: Image of Sentinel-1 SAR and detected flooding area in Stung Treng." %}
-
-### Takeo
-{% include gallery id="Takeo" caption="Figure 11: Image of Sentinel-1 SAR and detected flooding area in Takeo." %}
-
-### Svay Rieng
-{% include gallery id="Svayrieng" caption="Figure 12: Image of Sentinel-1 SAR and detected flooding area in Svay Rieng." %}
-
-### Prey Veng
-{% include gallery id="Preyveng" caption="Figure 13: Image of Sentinel-1 SAR and detected flooding area in Prey Veng." %}
-
-### Preah Sihanouk
-{% include gallery id="Sihanoukville" caption="Figure 14: Image of Sentinel-1 SAR and detected flooding area in Preah Sihanouk." %}
+.. image:: images/flood-cambo/Inundation-Area_VV_Flood.png
+  :width: 49%
+  :alt: alternate text
+  :align: left
+.. image:: images/flood-cambo/Inundation-Area.png
+  :width: 49%
+  :alt: alternate text
+  
+Figure 2: (b) Detected flooding area. (c) Extracted flooding area.
 
 -----
 ## Methodology
