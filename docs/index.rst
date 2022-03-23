@@ -12,7 +12,6 @@ My name is **Men Vuthy**. I am a Civil Engineer, specialized in river and geospa
 
 I graduted a master of Civil Engineering degree from The University of Tokyo in Japan in 2020. I recieved solid training in flood simulation and damage assessment, programming languages, machine learning and deep learning. I am proficient in ArcGIS/QGIS, geospatial data analysis, Python and Geo-Python, data retrieval and processing in Google Earth Engine, data classification and extraction, and data visualization. I am particularly interested in working with satelitte image data and dealing with large dataset. On the other hand, I like to spend time learning something new and explore more knowledge from various sources, and then write it down to my personal projects and documentations. More details about some of my projects and documentations can be found in DOCUMENTATIONS pages.
 
-
 .. toctree::
    :maxdepth: 2
    :hidden:
