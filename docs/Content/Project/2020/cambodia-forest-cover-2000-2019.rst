@@ -280,7 +280,7 @@ The computation for yearly forest cover and loss are conducted both in `Earth En
 
 Here is the script to run in GEE Code Editor for calculating yearly forest loss in Cambodia:
 
-.. code-block:: python
+.. code-block:: JavaScript
 
     // Load country boundaries from LSIB.
     var countries = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017');
