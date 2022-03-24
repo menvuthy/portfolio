@@ -5,4 +5,4 @@
    :maxdepth: 2
    :caption: 2021
 
-   land-use-classification/1-land_use_classification_with_random_forests.ipynb
+   2021/paddy-area-classification
