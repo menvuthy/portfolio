@@ -296,36 +296,36 @@ Here is the script to run in GEE Code Editor for calculating yearly forest loss 
 
     var lossYear = gfc2017.select(['lossyear']);
     var lossByYear = lossAreaImage.addBands(lossYear).reduceRegion({
-    reducer: ee.Reducer.sum().group({
-        groupField: 1
-        }),
-    geometry: cambo,
-    scale: 30,
-    maxPixels: 1e9
-    });
+                    reducer: ee.Reducer.sum().group({groupField: 1}),
+                    geometry: cambo,
+                    scale: 30,
+                    maxPixels: 1e9
+                    });
+    
     print(lossByYear);
 
     var statsFormatted = ee.List(lossByYear.get('groups'))
-    .map(function(el) {
-        var d = ee.Dictionary(el);
-        return [ee.Number(d.get('group')).format("20%02d"), d.get('sum')];
-    });
+                        .map(function(el) {
+                        var d = ee.Dictionary(el);
+                        return [ee.Number(d.get('group')).format("20%02d"), d.get('sum')]});
+    
     var statsDictionary = ee.Dictionary(statsFormatted.flatten());
+    
     print(statsDictionary);
 
     var chart = ui.Chart.array.values({
-    array: statsDictionary.values(),
-    axis: 0,
-    xLabels: statsDictionary.keys()
-    }).setChartType('ColumnChart')
-    .setOptions({
-        title: 'Yearly Forest Loss',
-        hAxis: {title: 'Year', format: '####'},
-        vAxis: {title: 'Area (square meters)'},
-        legend: { position: "none" },
-        lineWidth: 1,
-        pointSize: 3
-    });
+                    array: statsDictionary.values(),
+                    axis: 0,
+                    xLabels: statsDictionary.keys()
+                    }).setChartType('ColumnChart')
+                    .setOptions({
+                        title: 'Yearly Forest Loss',
+                        hAxis: {title: 'Year', format: '####'},
+                        vAxis: {title: 'Area (square meters)'},
+                        legend: { position: "none" },
+                        lineWidth: 1,
+                        pointSize: 3
+                    });
     print(chart);
 
 In order to calculate yearly forest cover, ``zonal_statistics_by_group`` function in ``geemap module`` was used in Python Jupyter Notebook to sum all forest cover pixels based on the size and forest canopy density of each pixel. Before calculation, installation of  ``geemap package`` may be necessary at the beginning if it is not yet installed on PC. The installation instruction is available `here <https://github.com/giswqs/geemap>`__.
