@@ -11,7 +11,7 @@ Sentinel-1 SAR: Cambodia Flood in October 2020
 .. image:: images/flood-cambo/Homepage.png
     :width: 100%
     :align: center
-
+|
 Heavy rain lashed Cambodia for over two weeks in October 2020, flooding 18 provinces and Phnom Pench city. According to figures reported by National Committee for Disaster Management (NCDM) in Cambodia from 1st to 19th October, 25 people were reported dead in the floods, about 300,000 people or 78,000 families were affected, and about 37,000 people or 9,000 families were displaced to safer zones. In addition, flood has also destroyed 56 houses and affected over 73,000 houses, while 568 schools were inundated. In this flood event, at least 80,000 ha crops and 210,000 ha paddy fields were inundated, whereas theirs damages has not been so far reported. On the other hand, many national and provincial roads were severely impacted by the effects of this prolonged flood.
 
 .. image:: images/flood-cambo/report-1.png
@@ -79,7 +79,7 @@ The code editor of Google Earth Engine is used for running the script below. Fil
 .. image:: images/flood-cambo/sar-gee.png
   :width: 100%
   :alt: center
-
+|
 **2. Detecting inundation area**
 
 The threshold value to differentiate the waterbody from the image is determined from the value of frequency value of VV. The value in the first peak area are generally considered as water value, while other high frequency value represents other types of classification including building, road, bared soil, crops, and forest. In order to compute, the scale should be set based on the size of the region of interest. The smaller the ROI is, the smaller the scale is. In the Cambodia scale, 500 resolution is set due to the fact that the higher resolution might not work due to the limition in GEE cloud when it comes to exporting.
