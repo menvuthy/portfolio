@@ -5,5 +5,7 @@
    :maxdepth: 2
    :caption: 2020
 
+   2020/phnom-penh-growth.rst
    2020/cambodia-flood-october-2020.rst
    2020/cambodia-forest-cover-2000-2019.rst
+   
