@@ -68,7 +68,7 @@ Video showing spatial and temporal changes of forest cover in Cambodia from 2000
 
 .. raw:: html
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/4D_sMds61jY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width=100% height="405" src="https://www.youtube.com/embed/4D_sMds61jY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 |
 By only viewing the video, the forest cover loss of some areas are exaggerated due to the far view of image and also the low density of forest canopy at those areas; hence, it is important to zoom into some specific areas to have a closer view of the forest cover and loss. Figure 3 are the images of some well-known areas in Cambodia which provide a clearer and closer look on forest cover and loss.
 
