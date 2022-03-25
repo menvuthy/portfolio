@@ -149,7 +149,7 @@ This map will serves practitioners, policy makers or engineers as an important i
 
 .. image:: images/flood-cambo/Inundation-Area_VV.png
     :width: 90%
-    :align: center
+    :align: alternate text
 Figure 3: (a) Sentinel-1 SAR Image of Cambodia from 15-20 October 2020.
 
 .. image:: images/flood-cambo/Inundation-Area_VV_Flood.png
