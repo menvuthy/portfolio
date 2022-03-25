@@ -7,3 +7,4 @@ Lesson: Geospatial data analysis with Python
 
    geo-python-course/01-Geometric-objects.ipynb
    geo-python-course/02-vector-data-analysis-and-Map-projection.ipynb
+   geo-python-course/03-Geocoding-and-Nearest-neighbour-analysis.ipynb
