@@ -6,3 +6,4 @@
    :caption: 2021
 
    2021/paddy-area-classification
+   2021/geo-python-course
