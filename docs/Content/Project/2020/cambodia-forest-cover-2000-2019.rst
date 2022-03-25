@@ -38,11 +38,11 @@ In this dataset, there are four important definitions as following:
 - **Forest Loss Year** is a disaggregation of total forest loss to annual time scales.
 
 .. image:: images/forest-cambo/global-forest-cover.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text
   :align: left
 .. image:: images/forest-cambo/global-forest-loss.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text
 
 Figure 1: (a) Global forest cover in 2000. (b) Global forest cover loss from 2000 to 2019.
