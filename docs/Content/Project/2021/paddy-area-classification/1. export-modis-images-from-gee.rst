@@ -1,7 +1,7 @@
 =======================================================================
 1. Export MODIS satellite images from Google Earth Engine
 =======================================================================
-*Written by Men Vuthy, 2020*
+*Written by Men Vuthy, 2021*
 
 ---------------
 
