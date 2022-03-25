@@ -9,7 +9,7 @@ Sentinel-1 SAR: Cambodia Flood in October 2020
     This is a quick way to detect and extract the inundation area for analysis based on the Sentinel-1 SAR GRD images by using Google Earth Engine and QGIS.
 
 .. image:: images/flood-cambo/Homepage.png
-    :width: 90%
+    :width: 100%
     :align: center
 |
 Heavy rain lashed Cambodia for over two weeks in October 2020, flooding 18 provinces and Phnom Pench city. According to figures reported by National Committee for Disaster Management (NCDM) in Cambodia from 1st to 19th October, 25 people were reported dead in the floods, about 300,000 people or 78,000 families were affected, and about 37,000 people or 9,000 families were displaced to safer zones. In addition, flood has also destroyed 56 houses and affected over 73,000 houses, while 568 schools were inundated. In this flood event, at least 80,000 ha crops and 210,000 ha paddy fields were inundated, whereas theirs damages has not been so far reported. On the other hand, many national and provincial roads were severely impacted by the effects of this prolonged flood.
@@ -77,7 +77,7 @@ The code editor of Google Earth Engine is used for running the script below. Fil
     Map.addLayer(image.clip(roi), {min: -25, max: 5}, 'Image_VV');
 
 .. image:: images/flood-cambo/sar-gee.png
-  :width: 90%
+  :width: 100%
   :alt: center
 |
 **2. Detecting inundation area**
@@ -100,7 +100,7 @@ The threshold value to differentiate the waterbody from the image is determined 
     print(Chart.image.histogram(image, roi, 500));
 
 .. image:: images/flood-cambo/Threshold.png
-  :width: 90%
+  :width: 100%
   :alt: center
 
 Figure 2: Histogram of VV showing the value for different type of landuse.
@@ -148,8 +148,9 @@ This map will serves practitioners, policy makers or engineers as an important i
 ## Overview of Inundation Area in Cambodia
 
 .. image:: images/flood-cambo/Inundation-Area_VV.png
-    :width: 90%
-    :align: alternate text
+    :width: 100%
+    :align: left
+|
 Figure 3: (a) Sentinel-1 SAR Image of Cambodia from 15-20 October 2020.
 
 .. image:: images/flood-cambo/Inundation-Area_VV_Flood.png
