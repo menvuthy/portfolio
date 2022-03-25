@@ -159,5 +159,4 @@ Figure 3: (a) Sentinel-1 SAR Image of Cambodia from 15-20 October 2020.
 .. image:: images/flood-cambo/Inundation-Area.png
   :width: 45%
   :alt: alternate text
-
 Figure 3: (b) Detected flooding area. (c) Extracted flooding area.
