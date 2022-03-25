@@ -24,7 +24,7 @@ The data source of information content presented here is publicly availble for b
 
 
 .. note::
-    These dataset illustration and visualization are aimed for [Education Purpose](#)  only.
+    These dataset illustration and visualization are aimed for *Education Purpose* only.
 
 ---------------------------------------------
 Global Forest Cover and Loss
