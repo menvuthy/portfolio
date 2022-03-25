@@ -56,11 +56,11 @@ Forest Cover Loss and Gain in Cambodia
 Figure 2 shows the comparison image of forest cover between 2000 and 2019 of the whole country.
 
 .. image:: images/forest-cambo/FC-2000.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text
   :align: left
 .. image:: images/forest-cambo/FC-2019.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text
 Figure 2: (a) Forest cover in 2000. (b) Forest cover in 2019.
 
@@ -73,18 +73,18 @@ Video showing spatial and temporal changes of forest cover in Cambodia from 2000
 By only viewing the video, the forest cover loss of some areas are exaggerated due to the far view of image and also the low density of forest canopy at those areas; hence, it is important to zoom into some specific areas to have a closer view of the forest cover and loss. Figure 3 are the images of some well-known areas in Cambodia which provide a clearer and closer look on forest cover and loss.
 
 .. image:: images/forest-cambo/FCL-Cambo.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text
   :align: left
 .. image:: images/forest-cambo/FCL-TonleSap.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text
 .. image:: images/forest-cambo/FCL-TechoSen.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text
   :align: left
 .. image:: images/forest-cambo/FCL-KhnangPsa.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text  
 Figure 3: Forest cover loss in the period 2000-2019. (a) Cambodia overview. (b) Area around Tonle Sap Lake. (c) Techo Sen Reussey Treb Park. (d) Khnang Psa mountainous area.
 
@@ -94,11 +94,11 @@ Figure 4 shows the image of forest gain between 2000 and 2012 of the whole Cambo
 
 
 .. image:: images/forest-cambo/gain.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text
   :align: left
 .. image:: images/forest-cambo/gain_neTSL.png
-  :width: 49%
+  :width: 45%
   :alt: alternate text
 Figure 4: Forest Gain 2000-2012. (a) Cambodia. (b) Northeastern Tonle Sap Lake area.
 
