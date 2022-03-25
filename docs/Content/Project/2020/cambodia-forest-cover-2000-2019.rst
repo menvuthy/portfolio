@@ -9,7 +9,7 @@ Cambodia Forest Cover Change 2000-2019
     This visualization is based on high-resolution global forest cover data developed by Hansan et al (2013).
 
 .. image:: images/forest-cambo/homepage_img.png
-    :width: 100%
+    :width: 90%
     :align: center
 |
 Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al. 2013 (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 from Landsat imagery at a spatial resolution of 30 m, especially the datasets have been updated every year. 
@@ -112,7 +112,7 @@ Forest loss was defined as a stand-replacement disturbance or the complete remov
     All computed values here are unofficial calculation based on the instruction from `Google Earth Engine <https://developers.google.com/earth-engine/tutorials/tutorial_forest_03a>`__. The user should be concerned of the accuracy with the actual data in their region of interest and the comparison with the official data source.
 
 .. image:: images/forest-cambo/yearlyforest.png
-  :width: 100%
+  :width: 90%
   :alt: alternate text
   :align: left
 Figure 5: Yearly forest cover and loss estimated for Cambodia.
