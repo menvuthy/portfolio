@@ -7,3 +7,4 @@ Develop paddy area map from MODIS satellite images
 
    paddy-area-classification/1. export-modis-images-from-gee.rst
    paddy-area-classification/2. create-mosaic.ipynb
+   paddy-area-classification/3. create-timeseries.ipynb
