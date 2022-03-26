@@ -17,7 +17,7 @@ I graduated a master of Civil Engineering degree from The University of Tokyo in
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Project
+   :caption: Projects
 
    Content/Project/2020
    Content/Project/2021
@@ -26,7 +26,14 @@ I graduated a master of Civil Engineering degree from The University of Tokyo in
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Documentation
+   :caption: Lessons
+
+   Content/Lesson/geo-python-course
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Documentations
 
    Content/Documentation/lidar
    Content/Documentation/geo-python
