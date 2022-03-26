@@ -10,3 +10,4 @@ Lesson: Geospatial data analysis with Python
    geo-python-course/03-Geocoding-and-Nearest-neighbour-analysis.ipynb
    geo-python-course/04.Geometric-operation-and-data-reclassification.ipynb
    geo-python-course/05.Static-and-interactive-map-on-leaftlet.ipynb
+   geo-python-course/06.Raster-data-analysis.ipynb
