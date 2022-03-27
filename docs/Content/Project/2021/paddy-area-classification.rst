@@ -1,5 +1,5 @@
-Develop paddy area map from MODIS satellite images
-===============================================================
+Develop paddy area map from MODIS satellite images using machine learning
+==============================================================================================
 
 .. toctree::
    :maxdepth: 2
