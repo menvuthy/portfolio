@@ -10,13 +10,12 @@ Phnom Penh: Urban Growth from 1988 to 2020 by Landsat Satellite Imageries
 Phnom Penh City: 1988 - 2020
 ---------------------------------------------
 
-
 More than thirty years ago, buildings and streets were barely on the map of Phnom Penh city. In 1988 it was home to about 615,000 people; however, 33 years later that had risen to more than 2 million according to worldpopulationreview.com.
-
 
 .. image:: images/phnom-penh/pp-collage.png
     :width: 100%
     :align: center
+    
 Figure 1: Phnom Penh city in 1988 (population ~615,000) and 2020 (population ~2,080,000).
 
 The yearly images were produced from the images of Landsat Satellite 5, 7 and 8 aiming at illustrating the spatial and temporal changes of urban growth in Phnom Penh city from 1988 to 2020.
@@ -26,6 +25,7 @@ Here is the **Timelapse of Phnom Penh city** (1987 - 2020):
 .. image:: images/phnom-penh/pp-growth.gif
     :width: 70%
     :align: center
+
 Figure 2: Phnom Penh city from 1987 to 2020.
 
 ---------------------------------------------
@@ -93,6 +93,7 @@ In this sample script, I raised three years (i.e. 2000, 2010, and 2020) for diff
 In this project, I used shapefile of Phnom Penh boundary as my region of interest.
 
 .. code-block:: python
+
     roi = geemap.shp_to_ee('~/PhnomPenh.shp')
     Map.addLayer(roi, {}, 'PhnomPenh_Boundary')
 
