@@ -65,7 +65,7 @@ In each area, water areas (including coastline extraction), vegetation areas, an
 |
 Figure 2: Sample of area extraction result and comparison
 
-**4. Shoreline extraction**
+   **4. Shoreline extraction**
 
 Shoreline is drawn based on water area analyzed in above section. From the water area extraction, the shoreline appears clearer, and it then can be extracted directly from water area shape. However, the shoreline might not be perfect at some areas or in some parts of the extracted line; thus, manual correction and adjustment in QGIS application is required. An example of the analysis result for Area-5 is shown below. 
 
