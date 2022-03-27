@@ -7,6 +7,7 @@
 .. image:: img/men-vuthy-cover.png
     :width: 100%
     :align: center
+    
 **Welcome to my portfolio!**
 ---------------------------------
 
