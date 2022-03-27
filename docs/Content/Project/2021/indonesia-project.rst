@@ -1,6 +1,8 @@
-Indonesia project: satellite image analysis
+Indonesia project: high-resolution satellite image analysis
 ==============================================================================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: In this project, I attempt to develop 2011 paddy area map of Pursat province from MODIS satellite image using Google Earth Engine, Python and unsupervised classification method in machine learning. The classification is based on the changing patterns of  Normalized Difference Vegetation Index (NDVI) time-series. These pattern of time-series data are classified into different clusters by using K-Means classifier. The processes to develop paddy area map are detailed as follows:
+   :caption: In this project, I conducted several analytic work and map development using high-resolution satellite image data of Northern Indonesia. It is the international project of the company I am working for; therefore, there are so many information I cannot disclose. However, what I present here is just the method I myself developed, so it can be used for learning. Nonetheless, the analysis includes area and shoreline extraction works for time-change comparison. 
+
+   indonesia-project/
