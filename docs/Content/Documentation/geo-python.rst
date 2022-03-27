@@ -6,4 +6,4 @@ Geo-Python
    :caption: Geo-python projects
 
    geo-python/Read-and-plot-raster.ipynb
-   geo-python/RandomForest.ipynb
+   geo-python/Random-forest-on-iris.ipynb

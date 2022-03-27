@@ -3,7 +3,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: 2020
+   :caption: These are some highlight projects I have done in 2020.
 
    2020/phnom-penh-growth.rst
    2020/cambodia-flood-october-2020.rst
