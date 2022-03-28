@@ -44,7 +44,6 @@ In this dataset, there are four important definitions as following:
 .. image:: images/forest-cambo/global-forest-loss.png
   :width: 48%
   :alt: alternate text
-  :align: right
 
 Figure 1: (a) Global forest cover in 2000. (b) Global forest cover loss from 2000 to 2019.
 
@@ -63,7 +62,6 @@ Figure 2 shows the comparison image of forest cover between 2000 and 2019 of the
 .. image:: images/forest-cambo/FC-2019.png
   :width: 48%
   :alt: alternate text
-  :align: right
   
 Figure 2: (a) Forest cover in 2000. (b) Forest cover in 2019.
 
@@ -82,7 +80,6 @@ By only viewing the video, the forest cover loss of some areas are exaggerated d
 .. image:: images/forest-cambo/FCL-TonleSap.png
   :width: 48%
   :alt: alternate text
-  :align: right
 .. image:: images/forest-cambo/FCL-TechoSen.png
   :width: 48%
   :alt: alternate text
@@ -90,7 +87,6 @@ By only viewing the video, the forest cover loss of some areas are exaggerated d
 .. image:: images/forest-cambo/FCL-KhnangPsa.png
   :width: 48%
   :alt: alternate text  
-  :align: right
 
 Figure 3: Forest cover loss in the period 2000-2019. (a) Cambodia overview. (b) Area around Tonle Sap Lake. (c) Techo Sen Reussey Treb Park. (d) Khnang Psa mountainous area.
 
@@ -106,7 +102,6 @@ Figure 4 shows the image of forest gain between 2000 and 2012 of the whole Cambo
 .. image:: images/forest-cambo/gain_neTSL.png
   :width: 48%
   :alt: alternate text
-  :align: right
 
 Figure 4: Forest Gain 2000-2012. (a) Cambodia. (b) Northeastern Tonle Sap Lake area.
 

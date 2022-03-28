@@ -58,14 +58,12 @@ In each area, water areas (including coastline extraction), vegetation areas, an
     :align: left
 .. image:: indonesia-project/image/image2.png
     :width: 48%
-    :align: right
 .. image:: indonesia-project/image/image3.png
     :width: 48%
     :align: left
 .. image:: indonesia-project/image/image4.png
     :width: 48%
-    :align: right
-    
+
 Figure 2: Sample of area extraction result and comparison
 
    **4. Shoreline extraction**
@@ -77,7 +75,6 @@ Shoreline is drawn based on water area analyzed in above section. From the water
     :align: left
 .. image:: indonesia-project/image/image6.png
     :width: 48%
-    :align: right
 
 Figure 3: Sample of shoreline extraction result and comparison
 

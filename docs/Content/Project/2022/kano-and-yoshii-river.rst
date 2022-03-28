@@ -51,7 +51,6 @@ Figure 2: Training data of Yoshii river.
     :align: left
 .. image:: kano-and-yoshii-river/images/predicted_yoshii.png
     :width: 47%
-    :align: right
 
 Figure 3: a. Predicted land cover of Kano river b. Predicted land cover of Yoshii river.
 
@@ -60,7 +59,6 @@ Figure 3: a. Predicted land cover of Kano river b. Predicted land cover of Yoshi
     :align: left
 .. image:: kano-and-yoshii-river/images/training_yoshii_zoom_legend.png
     :width: 47%
-    :align: right
 
 Figure 4: a. Training land cover of Kano river b. Training land cover of of Yoshii river.
 
@@ -69,6 +67,5 @@ Figure 4: a. Training land cover of Kano river b. Training land cover of of Yosh
     :align: left
 .. image:: kano-and-yoshii-river/images/predicted_yoshii_zoom_legend.png
     :width: 47%
-    :align: right
 
 Figure 5: a. Predicted land cover of Kano river b. Predicted land cover of of Yoshii river.
