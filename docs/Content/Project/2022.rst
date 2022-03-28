@@ -4,3 +4,6 @@
 .. toctree::
    :maxdepth: 2
    :caption: 2022
+
+   2022/kano-and-yoshii-river/1-Input Data for Supervised-ML-Kano River.ipynb
+   2022/kano-and-yoshii-river/2-Input Data for Supervised-ML-Yoshii River.ipynb
