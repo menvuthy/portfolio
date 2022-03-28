@@ -79,7 +79,7 @@ Figure 3: Sample of shoreline extraction result and comparison
 
 .. toctree::
    :maxdepth: 2
-   :caption: Calculation codes
+   :caption: Calculation codes:
 
    indonesia-project/1-extract-vegetation-area.ipynb
    indonesia-project/2-extract-water-area.ipynb
