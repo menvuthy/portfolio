@@ -17,7 +17,7 @@ The European Space Agency (ESA) WorldCover 10 m 2020 product provides a global l
 
 **Year of product**
 
-2020
+2020 
 
 .. raw:: html
 
