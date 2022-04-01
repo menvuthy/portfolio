@@ -27,7 +27,14 @@ Landsat 9 SR products are created with the Land Surface Reflectance Code (LaSRC)
 
 .. raw:: html
 
-    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/natural.html" title="Land cover in Cambodia" frameborder="0" allowfullscreen></iframe>
-    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/infra.html" title="Land cover in Cambodia" frameborder="0" allowfullscreen></iframe>
-    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/swi.html" title="Land cover in Cambodia" frameborder="0" allowfullscreen></iframe>
-    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/agri.html" title="Land cover in Cambodia" frameborder="0" allowfullscreen></iframe>
+    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/natural.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
+    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/infra.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
+    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/swi.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
+    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/agri.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
+
+**Full screen**
+
+- `Natural Color <https://menvuthy.github.io/sites/natural.html>`__
+- `Color Infrared <https://menvuthy.github.io/sites/infra.html>`__
+- `Short-Wave Infrared <https://menvuthy.github.io/sites/swi.html>`__
+- `Agriculture <https://menvuthy.github.io/sites/agri.html>`__
