@@ -11,6 +11,10 @@ The European Space Agency (ESA) WorldCover 10 m 2020 product provides a global l
 
 ``ESA/VITO/Brockmann Consult/CS/GAMMA Remote Sensing/IIASA/WUR``
 
+**Earth Engine Snippet**
+
+``ESA/WorldCover/v100``
+
 **Resolution**
 
 10 meters
