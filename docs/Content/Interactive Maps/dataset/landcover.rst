@@ -25,5 +25,5 @@ The European Space Agency (ESA) WorldCover 10 m 2020 product provides a global l
 
 .. raw:: html
 
-    <iframe width=100% height="900px" src="https://menvuthy.github.io/sites/land_cover_cambodia.html" title="Land cover in Cambodia" frameborder="0" allowfullscreen></iframe>
-    <p><a href="https://menvuthy.github.io/sites/land_cover_cambodia.html">Full Screen Mode</a></p>
+    <iframe width=100% height="900px" src="https://menvuthy.github.io/sites/landcover/land_cover_cambodia.html" title="Land cover in Cambodia" frameborder="0" allowfullscreen></iframe>
+    <p><a href="https://menvuthy.github.io/sites/landcover/land_cover_cambodia.html">Full Screen Mode</a></p>

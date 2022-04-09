@@ -27,10 +27,10 @@ Landsat 9 SR products are created with the Land Surface Reflectance Code (LaSRC)
 
 .. raw:: html
 
-    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/natural.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
-    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/infra.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
-    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/swi.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
-    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/agri.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
+    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/landsat9/natural.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
+    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/landsat9/infra.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
+    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/landsat9/swi.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
+    <iframe width=48% height="420px" src="https://menvuthy.github.io/sites/landsat9/agri.html" title="Landsat 9" frameborder="0" allowfullscreen></iframe>
 
 **Full screen**
 
