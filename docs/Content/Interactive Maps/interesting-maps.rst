@@ -5,7 +5,9 @@ Interesting Maps
    :maxdepth: 2
    :caption:  Maps by topic:
 
+   interesting-maps/global-forest-change.rst
    interesting-maps/world-size.rst
    interesting-maps/line-of-sight.rst
+   interesting-maps/flowrenderer.rst
 
    
