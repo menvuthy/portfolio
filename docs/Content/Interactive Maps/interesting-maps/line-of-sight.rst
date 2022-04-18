@@ -7,6 +7,6 @@ Line of sight analysis with Esri ArcGIS JavaScript to dynamically calculate visi
 
 .. raw:: html
 
-    <iframe width=100% height="420px" src="https://coolmaps.esri.com/Platform/LineOfSight/" title="Line of sight" frameborder="0" allowfullscreen></iframe>
+    <iframe width=100% height="600px" src="https://coolmaps.esri.com/Platform/LineOfSight/" title="Line of sight" frameborder="0" allowfullscreen></iframe>
 
 `Full screen <https://coolmaps.esri.com/Platform/LineOfSight/>`__
