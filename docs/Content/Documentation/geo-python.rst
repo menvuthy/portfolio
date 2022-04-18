@@ -7,3 +7,4 @@ Geo-Python
 
    geo-python/Read-and-plot-raster.ipynb
    geo-python/Random-forest-on-iris.ipynb
+   geo-python/Create-subplot.ipynb
