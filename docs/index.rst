@@ -30,7 +30,7 @@ I graduated a master of Civil Engineering degree from The University of Tokyo in
    :caption: Interactive Maps
 
    Content/Interactive Maps/dataset
-   Content/Interactive Maps/world-size
+   Content/Interactive Maps/interesting-maps
 
 .. toctree::
    :maxdepth: 2
