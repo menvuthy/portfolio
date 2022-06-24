@@ -15,9 +15,35 @@ My name is **Men Vuthy**. I am a Civil Engineer, specialized in river and geospa
 
 I graduated a master of Civil Engineering degree from The University of Tokyo in Japan in 2020. I recieved solid training in flood simulation and damage assessment, programming languages, machine learning and deep learning. I am proficient in QGIS/ArcGIS/ArcGIS Pro, geospatial data analysis, LaTeX, Python and Geo-Python, data retrieval and processing in Google Earth Engine, data classification and extraction, and data visualization. I am particularly interested in working with satellite image data and dealing with large dataset. On the other hand, I like to spend time learning something new and explore more knowledge from various sources, and then write it down to my personal portfolio. More details about some of my projects and documentations can be found in this website. 
 
+
+.. admonition:: Contact Info
+
+   - Email: men.vuthy@ymail.com
+   - LinkedIn: `Men Vuthy <https://www.linkedin.com/in/men-vuthy-7567421b6/>`__
+
+
+--------------------
+
+This website contains three main sections: Projects, Documentations, and Lessons.
+
+.. admonition:: Projects
+   
+   This section describes the technical solution to solve various topics including land cover classification, flood water surface extraction, forest cover, etc. 
+
+.. admonition:: Documentations
+
+   This section describes the programming technics in different applications including LiDAR, geo-python, Google Earth Engine, machine learning and deep learning. 
+
+.. admonition:: Lessons
+
+   This section provides full lessons to understand the basic concepts of programming and scientific data analysis using Python programming language. 
+
+
+Contents
+----------------
+
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Projects
 
    Content/Project/2020
@@ -26,22 +52,12 @@ I graduated a master of Civil Engineering degree from The University of Tokyo in
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
-   :caption: Interactive Maps
-
-   Content/Interactive Maps/dataset
-   Content/Interactive Maps/interesting-maps
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
    :caption: Lessons
 
    Content/Lesson/geo-python-course
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Documentations
 
    Content/Documentation/lidar
@@ -49,8 +65,3 @@ I graduated a master of Civil Engineering degree from The University of Tokyo in
    Content/Documentation/google-earth-engine
    Content/Documentation/machine-learning
    Content/Documentation/deep-learning
-
-.. admonition:: Contact Info
-
-   - Email: men.vuthy@ymail.com
-   - LinkedIn: `Men Vuthy <https://www.linkedin.com/in/men-vuthy-7567421b6/>`__
