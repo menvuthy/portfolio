@@ -20,8 +20,8 @@ I graduated a master of Civil Engineering degree from The University of Tokyo in
 
    - Email: men.vuthy@ymail.com
    - LinkedIn: `Men Vuthy <https://www.linkedin.com/in/men-vuthy-7567421b6/>`__
-
-
+   - GitHub: https://github.com/menvuthy
+   
 --------------------
 
 This website contains three main sections: Projects, Documentations, and Lessons.
