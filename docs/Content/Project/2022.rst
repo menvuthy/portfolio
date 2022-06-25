@@ -8,3 +8,4 @@
    2022/kano-and-yoshii-river
    2022/cambodia-flood-frequency.rst
    2022/land-cover-classification-in-gee.rst
+   2022/building-footprint-cambodia.rst
