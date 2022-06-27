@@ -24,6 +24,7 @@ Read more about dataset at:
     <iframe width=100% height="600px" src="https://vuthy.users.earthengine.app/view/building-footprint---cambodia?fbclid=IwAR1ZiExCvlzb8cfIB0-lOBR6XfEq-_di847qiHd5WGZnSxyFoab2gAGiU0g" title="MS Building Footprint Cambodia" frameborder="1" allowfullscreen></iframe>
 
 `View in fullscreen <https://vuthy.users.earthengine.app/view/building-footprint---cambodia?fbclid=IwAR1ZiExCvlzb8cfIB0-lOBR6XfEq-_di847qiHd5WGZnSxyFoab2gAGiU0g>`__
+
 ----------
 
 **Objective**
