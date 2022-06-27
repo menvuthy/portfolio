@@ -9,3 +9,4 @@
    2022/cambodia-flood-frequency.rst
    2022/land-cover-classification-in-gee.rst
    2022/building-footprint-cambodia.rst
+   2022/dynamic-landcover.rst
