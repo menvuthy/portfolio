@@ -65,3 +65,4 @@ Contents
    :caption: Lessons
 
    Content/Lesson/geo-python-course
+   Content/Lesson/deep-learning-pytorch
