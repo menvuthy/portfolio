@@ -12,3 +12,4 @@ Geo-Python
    geo-python/Convert-GPS-tracked-bus-movement-data.ipynb
    geo-python/Water_occurrence.ipynb
    geo-python/download_CHIRPS_data.ipynb
+   geo-python/Data_conversion_for_Source_model.ipynb
