@@ -6,7 +6,7 @@
 **GIS/Remote Sensing Documents**
 ---------------------------------
 
-.. image:: img/head-image.jpg
+.. image:: img/remote-sensing.png
     :width: 100%
     :align: center
     
