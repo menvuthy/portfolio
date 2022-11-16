@@ -2,7 +2,7 @@ Geo-Python
 ==============================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Geo-python projects
 
    geo-python/Read-and-plot-raster.ipynb

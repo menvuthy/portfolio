@@ -2,7 +2,7 @@ LiDAR
 ==========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: LiDAR projects
 
    lidar/Create_DEM_and_Hillshade_from_point_cloud_data_in_Python.ipynb
