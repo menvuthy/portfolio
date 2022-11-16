@@ -13,3 +13,4 @@ Geo-Python
    geo-python/Water_occurrence.ipynb
    geo-python/download_CHIRPS_data.ipynb
    geo-python/Data_conversion_for_Source_model.ipynb
+   geo-python/Convert_from_vector_to_raster.ipynb
